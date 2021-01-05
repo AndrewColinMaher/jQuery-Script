@@ -11,6 +11,13 @@ $("#button-card-4").click(function () {
     $("#par-4").toggle();
 });
 
+$("button").mouseenter(function () {
+    $("button").removeClass("make-red").addClass("make-border");
+});
+$("button").mouseleave(function () {
+    $("button").removeClass("make-border").addClass("make-red");
+});
+
 // $("#button-card-1").click(function () {
 //     $("#par-1").slideToggle(750);
 // });
