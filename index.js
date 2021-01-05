@@ -12,10 +12,10 @@ $("#button-card-4").click(function () {
 });
 
 $("button").mouseenter(function () {
-    $("button").removeClass("make-red").addClass("make-border");
+    $(this).removeClass("make-red").addClass("make-border");
 });
 $("button").mouseleave(function () {
-    $("button").removeClass("make-border").addClass("make-red");
+    $(this).removeClass("make-border").addClass("make-red");
 });
 
 // $("#button-card-1").click(function () {
